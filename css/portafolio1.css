@@ -1,0 +1,32 @@
+.logo{
+    width: 90px;
+}
+.retina-logo{
+    width: 50px;
+}
+
+#email:hover{
+    padding-left: 20px;
+    background-color: aqua;
+    margin-left: 20px;
+    font-size: 30px;
+}
+#fono:hover{
+    padding-left: 40px;
+    background-color: gold;
+    margin-left: 20px;
+    color: black;
+}
+#fono{
+    padding-left: 20px;
+    background-color: #e950ab;
+    margin-left: 20px;
+    color: white;
+}
+.ico{
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 90px;
+    margin-left: 70px;
+    
+}

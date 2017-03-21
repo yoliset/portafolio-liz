@@ -1,0 +1,211 @@
+/* Inserta tu codigo CSS aqui */
+/*HEADER-NAVEGADOR
+*/
+header{
+	background: rgba(255, 255, 255, 0.18);
+	border: 1px solid rgba(255, 255, 255, 0.27);
+	position:fixed;
+	width: 100%;
+	z-index: 1;
+	height: 52px;
+}
+.navbar-default {
+    background-color: rgba(206,24,24,0.50);
+    }
+.navbar-default .navbar-brand {
+    color: #F05F40;
+}
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+    border:none;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(0,0,0,.0001);
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: rgba(206, 70, 54, 0.99);
+}
+ .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color:white;
+    background-color: #F05F40;
+    }  
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    }
+/*--bg-header--*/
+.bg-header {
+	background: url(../img/header.jpg) no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+	background-size: cover;
+	width: 100%;
+}
+.text-header{
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+.text-header h1 {
+	font-weight: bold;
+	font-size: 3.7em;
+	padding: 22% 0 2% 0;
+}
+.text-header h1:hover{
+	text-shadow:1px 1px #FF8040, 
+                2px 2px #FF8040, 
+                3px 3px #FF8040, 
+                4px 4px #FF8040, 
+                5px 5px #FF8040, 
+                6px 6px #FF8040;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    -ms-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+.text-header p{
+	padding: 2% 10% 10%;
+	font-size: 1.2em;
+	color:rgba(255, 255, 255, 0.79);
+}
+.text-header a{
+	border:1px solid #F05F40;
+	padding: 2% 4%;
+	border-radius: 30px;
+	background: #F05F40;
+
+}
+.button{
+	text-decoration: none;
+	color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    background: #F05F40;
+}
+.button:hover{
+	text-decoration: none;
+	background: white;
+	color:#F05F40;
+}
+
+/*NAVEGADOR-DEL-PORTAFOLIO*/
+.portafolio {
+	background: #F05F40;
+	padding-top: 5%;
+}
+
+.perfil {
+	color:white;
+	padding-bottom: 8%;
+}
+.service{
+	padding: 3% 15% 3% 15%;
+}
+.service i{
+	color:#F05F40;
+	font-size: 5rem;
+}
+.service h3{
+	font-size: 2rem;
+}
+.service p{
+	font-size: 1.2rem;
+	color: #777777;
+}
+.imag{
+	margin:0;
+	padding: 0;
+}
+.img{
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+#github{
+	background: #222222;
+	padding:2%;
+}
+#github p{
+	color: white;
+	font-size: 2.2rem;
+	margin-bottom: 1%;
+}
+#github a{
+	color: #222222;
+	text-decoration: none;
+	font-size: 0.9rem;
+	font-weight: bold;
+	padding: 1% 2%;
+	border-radius: 20px;
+	background: white;
+}
+#github a:hover{
+	background: #F05F40;
+	text-decoration: none;
+	color: white;
+}
+.pie{
+	padding: 2% 25%;
+}
+hr{
+	width: 50px;
+	height: 2px;
+	background: #F05F40;
+}
+.pie i{
+	font-size: 30px;
+}
+.email p{
+	color: #F05F40;
+	text-decoration: none;
+}
+@media (max-width: 768px) {
+	.text-header a{
+		padding: 4% 8%;
+
+	}
+	.naranja img{
+			
+			opacity: 0.5;
+	}
+	.naranja{
+		background:#F05F40;
+	}
+	.size {
+	    background-size: 100%;
+	    height: 29vh;
+	}
+	.info h3{
+		color: white;
+		font-weight: bold;
+	}
+	.info h3{
+		color: #222222;
+		font-weight: bold;
+	}
+	.pie{
+		padding:0;
+	}
+	.pie p{
+		font-size: 1rem;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	#github {
+		padding-bottom:10%; 
+	}
+	#github p{
+		padding: 10% 1%; 
+	}
+	#github a{
+		padding:4% 8%; 
+	}
+	.text-header h1{
+		font-size: 2.7rem;
+	}
+}
