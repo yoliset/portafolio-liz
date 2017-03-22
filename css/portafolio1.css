@@ -19,9 +19,16 @@
 }
 #fono{
     padding-left: 20px;
-    background-color: #e950ab;
+    background-color: rgb(240, 17, 110);
     margin-left: 20px;
     color: white;
+}
+#caja1{
+    background-color: #ffe5ee;
+    float: right;
+}
+#caja{
+    background-color: #ffe5ee; 
 }
 .ico{
     border-radius: 50%;
@@ -29,4 +36,17 @@
     height: 90px;
     margin-left: 70px;
     
+}
+#about{
+
+background: url(img/yoli.png)no-repeat;
+
+}
+ 
+#about:hover
+{
+
+background: url(img/yoli.png)no-repeat;
+
+}
 }

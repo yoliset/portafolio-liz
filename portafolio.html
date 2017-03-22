@@ -24,14 +24,14 @@
                      </a>
                 </div>
                 <div class="col-md-12 margin-fifteen-tb sm-no-margin">
-                <div class="navbar-collapse accordion-menu mobile-accordion-menu collapse in" id="bs-example-navbar-collapse-1" aria-expanded="true">
+                <div class="navbar-collapse accordion-menu mobile-accordion-menu collapse in" id="bs-example-navbar-collapse-1 petalo" aria-expanded="true">
                 <div class="menu-personal-menu-container">
                      <ul id="menu-personal-menu" class="nav navbar-nav main-menu-height">
                          <li id="menu-item-3078" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3078">
                              <a href="#about" class="section-link">Sobre mi</a>
                          </li>
                          <li id="menu-item-3079" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3079">
-                             <a href="#skills" class="section-link">Habilidades</a>
+                             <a onclick="BlinkPerfil();" href="#skills" class="section-link">Habilidades</a>
                          </li>
                          <li id="menu-item-3082" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3082">
                              <a href="#portfolio" class="section-link">Portafolio</a>
@@ -87,9 +87,10 @@
 </div> <!-- Carousel -->
 </div>
 </section>
-<section id="about" class="sm-no-background cover-background" style="background: url(img/yoli.png)no-repeat"><div class="container">
+<section id="about" class="sm-no-background cover-background">
+    <div class="container">
      <div class="row">
-         <div class="wpb_column vc_column_container col-sm-12 col-lg-4 col-md-6 col-xs-12">
+         <div class="wpb_column vc_column_container col-sm-12 col-lg-6 col-md-8 col-xs-12">
          <div class="vc-column-innner-wrapper">
              <div class="wpd-innner-wrapper">
                  <h4 class="alt-font  black-text heading-style11 sm-margin-seven-bottom xs-margin-ten-bottom margin-thirteen-bottom ">Sobre mi</h4>
@@ -98,6 +99,9 @@
                  Considero que dentro de mis mejores habilidades es ser empática y super divertida. Laboralmente estoy 100% comprometida con las metas, y me gusta lograr los objetivos trazados..</p>
              </div>
          </div>
+         </div>
+         <div class="wpb_column vc_column_container col-sm-12 col-lg-6 col-md-4 col-xs-12">
+             <img src="" id="imagen">
          </div>
      </div>
 </div>
@@ -116,27 +120,21 @@
         <div class="vc-column-innner-wrapper">
              <div class="wpd-innner-wrapper">
                  <div id="da" class="dddd">
-                     <div class="col-lg-2 col-md-3 col-sm-2 col-xs-3 no-padding">
-                         <i class="icon-presentation icon-medium"></i>
+                     <div id="caja1" style="height:120px;" class="col-lg-6 col-md-9 col-sm-10 col-xs-9 no-padding notificacion" onclick="BlinkPerfil();">
+                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom">Herramientas de diseño <br><img style=" text-align: center;" src="img/icono.jpg" alt=""></span>
+                         
                      </div>
-                     <div class="col-lg-10 col-md-9 col-sm-10 col-xs-9 no-padding">
-                         <span class="display-block alt-font text-uppercase black-text margin-two-bottom">Herramientas de diseño</span>
-                        
-                     </div>
+                     
                  </div>
              </div>
         </div>
         </div>
-        <div class="wpb_column vc_column_container col-sm-6 col-lg-4 col-md-6 col-xs-12 margin-four-bottom md-margin-six-bottom sm-margin-seven-bottom xs-margin-ten-bottom">
+        <div class="wpb_column vc_column_container col-sm-6 col-lg-2 col-md-6 col-xs-12 margin-four-bottom md-margin-six-bottom sm-margin-seven-bottom xs-margin-ten-bottom">
         <div class="vc-column-innner-wrapper">
              <div class="wpd-innner-wrapper">
                  <div id="da" class="dddd">
-                     <div class="col-lg-2 col-md-3 col-sm-2 col-xs-3 no-padding">
-                         <i class="icon-trophy icon-medium"></i>
-                     </div>
-                     <div class="col-lg-10 col-md-9 col-sm-10 col-xs-9 no-padding">
-                         <span class="display-block alt-font text-uppercase black-text margin-two-bottom"> Herramientas de productividad</span>
-                        
+                     <div id="caja" style="height:120px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding notificacion">
+                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> Herramientas de productividad <br><img style=" text-align: center;" src="img/icono.jpg" alt=""></span>
                      </div>
                  </div>
              </div>
@@ -146,11 +144,8 @@
         <div class="vc-column-innner-wrapper">
              <div class="wpd-innner-wrapper">
                  <div id="da" class="dddd">
-                     <div class="col-lg-2 col-md-3 col-sm-2 col-xs-3 no-padding">
-                         <i class="icon-hotairballoon icon-medium"></i>
-                     </div>
-                     <div class="col-lg-10 col-md-9 col-sm-10 col-xs-9 no-padding">
-                         <span class="display-block alt-font text-uppercase black-text margin-two-bottom"> HTML 5</span>
+                     <div id="caja" style="height:120px;" class="col-lg-5 col-md-9 col-sm-10 col-xs-9 no-padding notificacion">
+                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> HERRAMIENTA de HTML 5 <br><img style=" text-align: center;" src="img/icono.jpg" alt=""></span>
                          
                     </div>
                  </div>
@@ -161,26 +156,19 @@
         <div class="vc-column-innner-wrapper">
              <div class="wpd-innner-wrapper">
                  <div id="da" class="dddd">
-                     <div class="col-lg-2 col-md-3 col-sm-2 col-xs-3 no-padding">
-                         <i class="icon-lifesaver icon-medium"></i>
-                     </div>
-                     <div class="col-lg-10 col-md-9 col-sm-10 col-xs-9 no-padding">
-                         <span class="display-block alt-font text-uppercase black-text margin-two-bottom">Boostraps</span>
-                    
+                     <div id="caja1" style="height:120px;" class="col-lg-6 col-md-9 col-sm-10 col-xs-9 no-padding">
+                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> HERRAMIENTA Boostraps <br><img style=" text-align: center;" src="img/icono.jpg" alt=""></span>
                      </div>
                  </div>
              </div>
         </div>
         </div>
-        <div class="wpb_column vc_column_container col-sm-6 col-lg-4 col-md-6 col-xs-12 md-clear-both xs-margin-ten-bottom">
+        <div class="wpb_column vc_column_container col-sm-6 col-lg-2 col-md-6 col-xs-12 md-clear-both xs-margin-ten-bottom">
         <div class="vc-column-innner-wrapper">
              <div class="wpd-innner-wrapper">
                  <div id="da" class="dddd">
-                     <div class="col-lg-2 col-md-3 col-sm-2 col-xs-3 no-padding">
-                         <i class="icon-scissors icon-medium"></i>
-                     </div>
-                     <div class="col-lg-10 col-md-9 col-sm-10 col-xs-9 no-padding">
-                         <span class="display-block alt-font text-uppercase black-text margin-two-bottom">Jquery</span>
+                     <div id="caja" style="height:120px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding notificacion">
+                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> HERRAMIENTA de Jquery<br><img style=" text-align: center;" src="img/icono.jpg" alt=""></span>
     
                      </div>
                  </div>
@@ -191,11 +179,8 @@
         <div class="vc-column-innner-wrapper">
              <div class="wpd-innner-wrapper">
                  <div id="da" class="dddd">
-                     <div class="col-lg-2 col-md-3 col-sm-2 col-xs-3 no-padding">
-                         <i class="icon-tools icon-medium"></i>
-                     </div>
-                     <div class="col-lg-10 col-md-9 col-sm-10 col-xs-9 no-padding">
-                         <span class="display-block alt-font text-uppercase black-text margin-two-bottom"> CSS 3</span>
+                     <div id="caja" style="height:120px;" class="col-lg-5 col-md-9 col-sm-10 col-xs-9 no-padding ">
+                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> Herramienta de CSS 3 <br><img style=" text-align: center;" src="img/icono.jpg" alt=""></span>
                      </div>
                  </div>
              </div>
@@ -204,9 +189,30 @@
     </div>
     </div>
 </section>
-<section id="portafolio" class="cover-background">
-  <div class="container-fluid text-center">  
+<section class="cover-background" style="background: url(img/fondos.png)no-repeat">
+<div class="container">
+<div class="row">
+      <div class="wpb_column vc_column_container col-sm-12 col-lg-6 col-md-8 col-xs-12 pull-right xs-text-center">
+         <div class="vc-column-innner-wrapper">
+          <div class="wpd-innner-wrapper">
+                 <p><span class="alt-font white-text text-uppercase title-small">“Dime y lo olvido, enséñame y lo recuerdo, involúcrame y lo aprendo.” <br> <small>Benjamin Franklin.</small></span></p>
+                 <div class=" margin-six-tb" style="background:rgba(255,255,255,0.3); height:1px;"></div>
+         </div>
+         </div>
+     </div>
+</div>
+</div>
+</section>
+<section id="portfolio" class="gutter-medium" style="border-bottom: 1px solid #e5e5e5;">
+  <div class="container">  
     <div class="row ">  
+       <div class="wpb_column vc_column_container col-sm-12 col-md-12 col-xs-12 xs-text-center margin-six-bottom xs-margin-ten-bottom">
+       <div class="vc-column-innner-wrapper">
+             <div class="wpd-innner-wrapper">
+                 <h4 class="alt-font  black-text heading-style11 ">Portafolio</h4>
+             </div>
+       </div>
+       </div>
         <div class="col-md-4 col-md-6 col-xs-12 imag">
             <div class="ih-item square effect3"><a href="#">
             <div class="img"><img src="img/1.jpg" alt="img"></div>
@@ -329,7 +335,10 @@
 </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script> 
+<script type="text/javascript" src="js/cambiar-fondo.js"></script>
+<script type="text/javascript" src="js/menu-scroll.js"></script>
 </footer>
 </div>
 </body>
