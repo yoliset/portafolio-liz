@@ -5,35 +5,72 @@
     width: 50px;
 }
 
-#email:hover{
-    padding-left: 20px;
-    background-color: aqua;
-    margin-left: 20px;
-    font-size: 30px;
+.movimiento {
+	
+	display: flex;
+	width: 400px;
+	height: 40px;
+	color: #fff;
+	font-size: 40px;
+	line-height: 40px;
+	
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	overflow: hidden;
+	
 }
-#fono:hover{
-    padding-left: 40px;
-    background-color: gold;
-    margin-left: 20px;
-    color: black;
-}
-#fono{
-    padding-left: 20px;
-    background-color: rgb(240, 17, 110);
-    margin-left: 20px;
+.hi{
+    background-color: rgb(187, 118, 154);
+    padding: 0px 5px;
     color: white;
 }
-#caja1{
-    background-color: #ffe5ee;
-    float: right;
+.ul {
+	list-style: none;
+	padding-left: 5px;
+	animation: cambiar 12s infinite;
 }
-#caja{
-    background-color: #ffe5ee; 
+
+.ul, .hi {
+	margin: 0;
+    font-size: 15px;
+    
 }
+
+
+@keyframes cambiar {
+	
+	0%{ margin-top: 0;}
+	20%{ margin-top: 0;}
+	
+	25% {margin-top: -40px;}
+	50% {margin-top: -40px;}
+	
+	55% {margin-top: -80px;}
+	80% {margin-top: -80px;}
+	
+	85% {margin-top: -40px;}
+	95% {margin-top: -40px;}
+	
+	100% {margin-top: 0;}
+}
+
 .ico{
     border-radius: 50%;
     border: 2px solid white;
-    height: 90px;
-    margin-left: 70px;
+    height: 40px;
+    margin-left: 5px;
+    display: inline-block;
+    
+}
+.icoi{
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 30px;
+    margin-left: 5px;
+    display: inline-block;
     
 }
