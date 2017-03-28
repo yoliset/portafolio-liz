@@ -2,7 +2,7 @@
 
     var imagenes=new Array(
         'img/imagen/1.jpg',
-        'img/imagen/2.jpg'
+        'img//imagen/2.jpg'
         
     );
     //Funcion para cambiar la imagen

@@ -27,40 +27,43 @@
                 <div class="navbar-collapse accordion-menu mobile-accordion-menu collapse in" id="bs-example-navbar-collapse-1" aria-expanded="true">
                 <div class="menu-personal-menu-container">
                      <ul id="menu-personal-menu" class="nav navbar-nav main-menu-height">
-                        <li id="menu-item-3078" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3078">
-                             <a href="index.html"  class="section-link">Inicio</a>
+                         <li id="menu-item-3078" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3078">
+                             <a href="#home"  class="section-link inf">Portada</a>
                          </li>
                          <li id="menu-item-3078" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3078">
-                             <a href="#about"  class="section-link inf">Sobre mi</a>
+                             <a href="#about"  class="section-link inf hidePanel">Sobre mi</a>
                          </li>
                          <li id="menu-item-3079" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3079">
-                             <a href="#habilidades" onclick="BlinkPerfil()" class="section-link inf">Habilidades</a>
+                             <a href="#habilidades" id="hidePanel" onclick="BlinkPerfil()" class="section-link inf hidePanel">Habilidades</a>
+                         </li>
+                         <li id="menu-item-3082"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3082">
+                             <a href="#portafolio" id="hidePanel" class="section-link inf hidePanel">Portafolio</a>
                          </li>
                          <li id="menu-item-3082" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3082">
-                             <a href="#portafolio" class="section-link inf">Portafolio</a>
-                         </li>
-                         <li id="menu-item-3082" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3082">
-                             <a href="#frase" class="section-link inf">Motivación</a>
+                             <a href="#frase" id="hidePanel" class="section-link inf hidePanel">Motivación</a>
                          </li>
                          <li id="menu-item-3084" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3084">
-                             <a href="#contacto"  class="section-link inf">Contacto</a>
+                             <a href="#contacto" id="hidePanel" class="section-link inf hidePanel">Contacto</a>
                          </li>
                      </ul>
                 </div>
                 </div>
                 </div>
-                <div class="textwidget text-center">
-                        <a href="#"><img class="icoi" src="img/face.png" alt=""></a>
-                        <a href="#home" class="inner-link"> <img class="ico" src="img/LIzbeth.png" alt=""> 
-                        </a>
-                        <a href="#"><img class="ico" src="img/git.png" alt=""></a> 
-                        <a href="#"><img class="icoi" src="img/linked.ico" alt=""></a> 
+                <div>
+                    <div class="textwidget text-center">
+                 <a href="https://www.facebook.com/lizbeth.hama"><img class="icoi" src="img/face.png" alt=""></a>
+                 <a href="#home" class="inner-link"> <img class="ico" src="img/LIzbeth.png" alt=""> 
+                 </a>
+                 <a href="https://github.com/yoliset"><img class="ico" src="img/git.png" alt=""></a> 
+                 <a href="https://www.linkedin.com/feed/?trk="><img class="icoi" src="img/linked.ico" alt=""></a> 
+                 
              </div>
+                </div>
             </div>
             </div> 
        </nav>
 <div class="sidebar-wrapper personal">
-<section id="home" class="parent-section no-padding well">
+<section id="home" class="parent-section no-padding panel">
 <div class="container-fluid content">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -134,8 +137,9 @@
         <div class="vc-column-innner-wrapper">
              <div class="wpd-innner-wrapper">
                  <div id="da" class="dddd">
-                     <div id="caja1" style="height:80px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding notificacion" onclick="BlinkPerfil();">
-                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom">Herramientas de diseño <br><img style=" text-align: center;" src="img/icono.jpg" alt=""></span>
+                     <div id="caja" style="height:120px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding notificacion text-center" onclick="BlinkPerfil();">
+                         <img  class="img2"  src="img/icono.jpg" alt="">
+                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom">Herramientas de diseño <br></span>
                          
                      </div>
                      
@@ -147,8 +151,9 @@
         <div class="vc-column-innner-wrapper">
              <div class="wpd-innner-wrapper">
                  <div id="da" class="dddd">
-                     <div id="caja" style="height:80px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding notificacion">
-                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> Herramientas de productividad <br><img style=" text-align: center;" src="img/icono.jpg" alt=""></span>
+                     <div id="caja" style="height:120px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding notificacion text-center">
+                         <img  class="img2" src="img/icono.jpg" alt="">
+                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> Herramientas de productividad <br></span>
                      </div>
                  </div>
              </div>
@@ -158,8 +163,9 @@
         <div class="vc-column-innner-wrapper">
              <div class="wpd-innner-wrapper">
                  <div id="da" class="dddd">
-                     <div id="caja" style="height:80px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding notificacion">
-                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> HERRAMIENTA de HTML 5 <br><img style=" text-align: center;" src="img/icono.jpg" alt=""></span>
+                     <div id="caja" style="height:120px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding notificacion text-center">
+                         <img  class="img2" src="img/icono.jpg" alt="">
+                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> HERRAMIENTA de HTML 5 <br></span>
                          
                     </div>
                  </div>
@@ -170,8 +176,9 @@
         <div class="vc-column-innner-wrapper">
              <div class="wpd-innner-wrapper">
                  <div id="da" class="dddd">
-                     <div id="caja1" style="height:80px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding">
-                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> HERRAMIENTA Boostraps <br><img style=" text-align: center;" src="img/icono.jpg" alt=""></span>
+                     <div id="caja" style="height:120px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding text-center square2">
+                         <img  class="img2" src="img/icono.jpg" alt="">
+                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> HERRAMIENTA Boostraps <br></span>
                      </div>
                  </div>
              </div>
@@ -181,8 +188,9 @@
         <div class="vc-column-innner-wrapper">
              <div class="wpd-innner-wrapper">
                  <div id="da" class="dddd">
-                     <div id="caja" style="height:80px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding notificacion">
-                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> HERRAMIENTA de Jquery<br><img style=" text-align: center;" src="img/icono.jpg" alt=""></span>
+                     <div id="caja" style="height:120px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding notificacion text-center">
+                         <img  class="img2" src="img/icono.jpg" alt="">
+                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> HERRAMIENTA de Jquery<br></span>
     
                      </div>
                  </div>
@@ -193,8 +201,9 @@
         <div class="vc-column-innner-wrapper">
              <div class="wpd-innner-wrapper">
                  <div id="da" class="dddd">
-                     <div id="caja" style="height:80px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding ">
-                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> Herramienta de CSS 3 <br><img style=" text-align: center;" src="img/icono.jpg" alt=""></span>
+                     <div id="caja" style="height:120px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding text-center square3">
+                         <img  class="img2" src="img/icono.jpg" alt="">
+                         <span style=" text-align: center;" class="display-block alt-font text-uppercase black-text margin-two-bottom"> Herramienta de CSS 3 <br></span>
                      </div>
                  </div>
              </div>
@@ -206,7 +215,7 @@
 <section id="frase" class="cover-background well oculto" style="background: url(img/fondos.png)no-repeat">
 <div class="container content">
 <div class="row">
-      <div class="wpb_column vc_column_container col-sm-12 col-lg-6 col-md-8 col-xs-12 pull-right xs-text-center">
+      <div class="wpb_column vc_column_container col-sm-12 col-lg-8 col-md-8 col-xs-12 pull-right xs-text-center">
          <div class="vc-column-innner-wrapper">
           <div  class="wpd-innner-wrapper titulo">
                  <p  id="text-animation" style="color: transparent; font-size:26px;">“Dime y lo olvido, enséñame y lo recuerdo, involúcrame y lo aprendo.” </p><br>
@@ -234,12 +243,12 @@
              <div class="wpd-innner-wrapper">
                      <div id="da" class="dddd">
                      <div  style="height:120px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding">
-                         <div class="ih-item square effect3"><a href="#">
-                             <div class="img"><img src="img/1.jpg" alt="img"></div>
+                         <div class="ih-item square effect3"><a href="https://yoliset.github.io/3-en-rayas/">
+                             <div class="img"><img src="img/portafolio/gato.png" alt="img"></div>
                                   <div class="hidden-xs mask1"></div>
                                   <div class="hidden-xs mask2"></div>
                                   <div class="hidden-xs info">
-                                  <p>Nuevo proyecto</p>
+                                  <p>3 en raya</p>
                                    </div></a></div>  
                      </div>
                      </div>
@@ -251,12 +260,12 @@
              <div class="wpd-innner-wrapper">
                     <div id="da" class="dddd">
                      <div  style="height:120px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding">
-                         <div class="ih-item square effect2"><a href="#">
-                            <div class="img"><img src="img/2.jpg" alt="img"></div>
+                         <div class="ih-item square effect2"><a href="https://yoliset.github.io/lista-tareas/">
+                            <div class="img"><img src="img/portafolio/tarea.png" alt="img"></div>
                               <div class="hidden-xs mask1"></div>
                                 <div class="hidden-xs mask2"></div>
                                 <div class="hidden-xs info">
-                                <p>Nuevo proyecto</p>
+                                <p>Lista Tareas</p>
                                 </div></a></div> 
                      </div>
                      </div>
@@ -268,12 +277,12 @@
              <div class="wpd-innner-wrapper">
                  <div id="da" class="dddd">
                      <div  style="height:220px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding">
-                         <div class="ih-item square effect4"><a href="#">
-                             <div class="img naranja"><img src="img/3.jpg" alt="img"></div>
+                         <div class="ih-item square effect4"><a href="https://yoliset.github.io/creamy-theme/">
+                             <div class="img naranja"><img src="img/portafolio/theme.png" alt="img"></div>
                                  <div class="hidden-xs mask1"></div>
                                  <div class="hidden-xs mask2"></div>
                                  <div class=" info"> 
-                                 <p>Nuevo proyecto</p>
+                                 <p>Creamy Theme</p>
                                  </div></a>
                            </div> 
                     </div>
@@ -286,12 +295,12 @@
              <div class="wpd-innner-wrapper">
                  <div id="da" class="dddd">
                      <div  style="height:120px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding">
-                         <div class="ih-item square effect4"><a href="#">
-                             <div class="img naranja"><img src="img/3.jpg" alt="img"></div>
+                         <div class="ih-item square effect4"><a href="https://yoliset.github.io/bicis-locas-jquery/">
+                             <div class="img naranja"><img src="img/portafolio/bici.png" alt="img"></div>
                                  <div class="hidden-xs mask1"></div>
                                  <div class="hidden-xs mask2"></div>
                                  <div class=" info"> 
-                                 <p>Nuevo proyecto</p>
+                                 <p>bicis Locas</p>
                                  </div></a>
                            </div> 
                     </div>
@@ -304,12 +313,12 @@
              <div class="wpd-innner-wrapper">
                     <div id="da" class="dddd">
                      <div  style="height:120px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding">
-                         <div class="ih-item square effect2"><a href="#">
-                            <div class="img"><img src="img/2.jpg" alt="img"></div>
+                         <div class="ih-item square effect2"><a href="https://yoliset.github.io/whats-app/">
+                            <div class="img"><img src="img/portafolio/wha.png" alt="img"></div>
                               <div class="hidden-xs mask1"></div>
                                 <div class="hidden-xs mask2"></div>
                                 <div class="hidden-xs info">
-                                <p>Nuevo proyecto</p>
+                                <p>Whats-App</p>
                                 </div></a></div> 
                      </div>
                      </div>
@@ -321,12 +330,12 @@
              <div class="wpd-innner-wrapper">
                     <div id="da" class="dddd">
                      <div  style="height:120px;" class="col-lg-12 col-md-9 col-sm-10 col-xs-9 no-padding">
-                         <div class="ih-item square effect2"><a href="#">
-                            <div class="img"><img src="img/2.jpg" alt="img"></div>
+                         <div class="ih-item square effect2"><a href="https://yoliset.github.io/User-Testing/">
+                            <div class="img"><img src="img/portafolio/user.png" alt="img"></div>
                               <div class="hidden-xs mask1"></div>
                                 <div class="hidden-xs mask2"></div>
                                 <div class="hidden-xs info">
-                                <p>Nuevo proyecto</p>
+                                <p>User Testing</p>
                                 </div></a></div> 
                      </div>
                      </div>
@@ -337,7 +346,7 @@
   </div>
 </section>
 <section id="contacto" class="gutter-medium sm-no-background cover-background well oculto" style="background: url(img/yoli.png)no-repeat">  
-<div class="container content">
+<div class="container">
 <div class="row">
      <div class="wpb_column vc_column_container col-sm-12 col-md-12 col-xs-mobile-fullwidth xs-text-center margin-six-bottom xs-margin-ten-bottom">
          <div class="vc-column-innner-wrapper">
@@ -354,16 +363,26 @@
                 <div class="contenedor movimiento">
 			       <p class="hi"><strong>Hola</strong></p>
 			             <ul class="ul">
-                             <li class="text-center" style="background-color: rgba(140, 56, 130, 0.71);padding: 0px 10px;"><strong>Email: lizbeth9589@gmail.com</strong></li>
-                             <li class="text-center" style="background-color:rgba(29, 90, 93, 0.71);"><strong>Celular: 956804890 </strong></li>
-				             <li class="text-center" style="background-color:rgba(199, 75, 116, 0.81);"><strong>Fono: 054 485164</strong></li>
+                            <li class="text-center" style="background-color: rgb(155, 114, 202);padding: 0px 10px;border-radius: 20px;"><strong>Email: lizbeth9589@gmail.com</strong></li>
+                             <li class="text-center" style="background-color:rgb(47, 212, 206);border-radius: 20px;"><strong>Celular: 956804890 </strong></li>
+				             <li class="text-center" style="background-color:rgb(228, 76, 164);border-radius: 20px;"><strong>Fono: 054 485164</strong></li>
 			             </ul>
 		        </div>  
              </div>
              </div>
          </div>
      </div>
+     <br>
+     <br>
+     <div class="row col-md-12">
+     <div id="redessociales">
+          <a class="smedia facebook" href="https://www.facebook.com/lizbeth.hama">Uno</a>
+          <a class="smedia instagram" href="#">Dos</a>
+          <a class="smedia youtube" href="#">Tres</a>
+          <a class="smedia email" href="https://mail.google.com/mail/u/0/#inbox">Cuatro</a>
      </div>
+      </div>
+</div>
 </div>
 </section>
 </div>

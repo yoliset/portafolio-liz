@@ -1,4 +1,5 @@
-	$(document).ready(function(){
+//Aparecer 	section
+$(document).ready(function(){
   $(".oculto").hide();              
     $(".inf").click(function(){
           var nodo = $(this).attr("href");  
@@ -12,9 +13,16 @@
         return false;
           }
     });
-});  
+}); 
+// desaaprecer la section
+$(document).ready(function(){
+    
+    $(".hidePanel").click(function(){
+        $(".panel").hide();
+    });
+  
+});
 // Array con las imagenes que se iran mostrando en la web
-
     var imagenes=new Array(
         'img/perfil/1.jpg',
         'img/perfil/2.jpg',
@@ -40,7 +48,8 @@
         setInterval(rotarImagenes,2000);
     }
 
-    
+
+//Darle cambio de color al div  
   var blikedPerfil = false;
         function BlinkPerfil() {
             blikedPerfil = !blikedPerfil;
@@ -49,13 +58,15 @@
         }
 
 // para animacion en letras
-
-  $( document ).ready(function() {
-     tamano='';
+ $(document).ready(function(){
+    
+        tamano='';
       i=1;
      ConvertirTexto();
      setInterval(Animar,90);
-    });
+
+  
+});
 
 function ConvertirTexto(){
      resultado='';
