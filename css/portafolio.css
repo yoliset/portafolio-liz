@@ -1,44 +1,205 @@
+header {
+  position: relative;
+  z-index: 100; }
+
+section {
+  margin-top: 30px; }
+
+#portafolio {
+  height: 700px; }
+
+#frase {
+  margin-top: 100px; }
+
 .logo {
   width: 90px; }
 
 .retina-logo {
   width: 50px; }
 
-#email:hover {
-  padding-left: 20px;
-  background-color: aqua;
-  margin-left: 20px;
-  font-size: 30px; }
+.movimiento {
+  display: flex;
+  width: 400px;
+  height: 40px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: hidden; }
 
-#fono:hover {
-  padding-left: 40px;
-  background-color: gold;
-  margin-left: 20px;
-  color: black; }
+.hi {
+  font-family: inherit;
+  color: black;
+  font-size: 40px;
+  border-radius: 32px; }
 
-#fono {
-  padding-left: 20px;
-  background-color: #f0116e;
-  margin-left: 20px;
-  color: white; }
+.ul {
+  list-style: none;
+  padding-left: 15px;
+  animation: cambiar 12s infinite;
+  font-size: 15px;
+  border-radius: 32px; }
 
-#caja1 {
-  background-color: #ffe5ee;
-  float: right; }
+.ul, .hi {
+  margin: 0; }
+
+#contacto {
+  height: 480px; }
+
+@keyframes cambiar {
+  0% {
+    margin-top: 0; }
+  20% {
+    margin-top: 0; }
+  25% {
+    margin-top: -40px; }
+  50% {
+    margin-top: -40px; }
+  55% {
+    margin-top: -80px; }
+  80% {
+    margin-top: -80px; }
+  85% {
+    margin-top: -40px; }
+  95% {
+    margin-top: -40px; }
+  100% {
+    margin-top: 0; } }
+.img2 {
+  padding-top: 13px; }
 
 #caja {
-  background-color: #ffe5ee; }
+  background-color: #ffe5ee;
+  width: 126px;
+  font-size: 12px;
+  -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; }
 
 .ico {
   border-radius: 50%;
   border: 2px solid white;
-  height: 90px;
-  margin-left: 70px; }
+  height: 40px;
+  margin-left: 5px;
+  display: inline-block; }
 
-#about {
-  background: url(img/yoli.png) no-repeat; }
+.icoi {
+  border-radius: 50%;
+  border: 2px solid white;
+  height: 30px;
+  margin-left: 5px;
+  display: inline-block; }
 
-#about:hover {
-  background: url(img/yoli.png) no-repeat; }
+#redessociales {
+  margin-top: 30px;
+  margin-left: 50px;
+  height: 220px;
+  width: 180px;
+  border-radius: 75px;
+  border: 5px solid #fff;
+  background: url(../img/portaa.png) no-repeat; }
+
+.smedia {
+  position: absolute;
+  -webkit-transition: left 0.5s cubic-bezier(0.1, 0.8, 0.9, 1), opacity 1s linear;
+  -moz-transition: left 0.5s cubic-bezier(0.1, 0.8, 0.9, 1), opacity 1s linear;
+  -o-transition: left 0.5s cubic-bezier(0.1, 0.8, 0.9, 1), opacity 1s linear;
+  display: inline;
+  opacity: 0;
+  width: 46px;
+  height: 46px;
+  z-index: 100;
+  margin: 10px 0px 0px 20px;
+  text-indent: -9999px;
+  background: no-repeat;
+  left: 3px;
+  margin-top: 19px;
+  margin-left: 54px; }
+
+#redessociales:hover .smedia {
+  opacity: 1;
+  transform: translate(0px, 0);
+  -webkit-transform: translate(0px, 0);
+  -o-transform: translate(0px, 0);
+  -moz-transform: translate(0px, 0);
+  margin: 10px 0px 0px 20px;
+  position: absolute; }
+
+#redessociales:hover .smedia:nth-child(1) {
+  position: absolute;
+  left: 65px; }
+
+#redessociales:hover .smedia:nth-child(2) {
+  position: absolute;
+  left: 110px; }
+
+#redessociales:hover .smedia:nth-child(3) {
+  position: absolute;
+  left: 155px; }
+
+#redessociales:hover .smedia:nth-child(4) {
+  position: absolute;
+  left: 200px; }
+
+.smedia.facebook {
+  background: url(http://4.bp.blogspot.com/-49s_0_9mdVo/UWHsMIvJBNI/AAAAAAAABn8/6bVMlN4Qz7Y/s1600/bubble_facebook_share_button.png); }
+
+.smedia.email {
+  background: url(http://3.bp.blogspot.com/-ZhFqBhp79cA/UWHsMBmPxsI/AAAAAAAABn4/O8k_pGf1oCU/s1600/bubble_email_share_button.png); }
+
+.smedia.instagram {
+  background: url(http://1.bp.blogspot.com/-FSkby0cXU_8/UWHsMis8c2I/AAAAAAAABoQ/y8coyc5ystc/s1600/bubble_instagram_share_button.png); }
+
+.smedia.youtube {
+  background: url(http://4.bp.blogspot.com/-x2oyT1dBzwA/UWHsNtcWXVI/AAAAAAAABo8/8kCXTVMbM6Y/s1600/bubble_youtube_share_button.png); }
+
+.smedia:hover {
+  background-position: 0 -46px; }
+
+.square2 {
+  position: absolute;
+  animation: rotate1 5s;
+  -webkit-animation: rotate1 5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  transform-origin: 50% 50%; }
+
+.square3 {
+  position: absolute;
+  animation: rotate1 5s;
+  -webkit-animation: rotate1 5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  transform-origin: 50% 50%; }
+
+@-webkit-keyframes rotate2 {
+  from {
+    -webkit-transform: rotateY(0deg) rotateX(360deg); }
+  to {
+    -webkit-transform: rotateY(360deg) rotateX(0deg); } }
+@keyframes rotate2 {
+  from {
+    transform: rotateY(0deg) rotateX(360deg); }
+  to {
+    transform: rotateY(360deg) rotateX(0deg); } }
+@-webkit-keyframes rotate1 {
+  from {
+    -webkit-transform: rotateX(0deg) rotateY(0deg); }
+  to {
+    -webkit-transform: rotateX(360deg) rotateY(360deg); } }
+@keyframes rotate1 {
+  from {
+    transform: rotateX(0deg) rotateY(0deg); }
+  to {
+    transform: rotateX(360deg) rotateY(360deg); } }
 
 /*# sourceMappingURL=portafolio.css.map */
