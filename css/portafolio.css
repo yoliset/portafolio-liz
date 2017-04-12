@@ -2,20 +2,23 @@ header {
   position: relative;
   z-index: 100; }
 
-section {
-  margin-top: 30px; }
-
 #portafolio {
-  height: 700px; }
+  height: 610px; }
+
+#habilidades {
+  height: 590px; }
 
 #frase {
-  margin-top: 100px; }
+  margin-top: 180px; }
+
+#contacto {
+  margin-top: 80px; }
 
 .logo {
   width: 90px; }
 
 .retina-logo {
-  width: 50px; }
+  width: 30px; }
 
 .movimiento {
   display: flex;
@@ -95,14 +98,26 @@ section {
   margin-left: 5px;
   display: inline-block; }
 
+#contacto .cv {
+  height: 30px;
+  width: 70px;
+  background-color: cornsilk;
+  position: absolute;
+  top: 220px;
+  left: 250px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid chocolate; }
+
 #redessociales {
   margin-top: 30px;
   margin-left: 50px;
-  height: 220px;
-  width: 180px;
+  height: 120px;
+  width: 80px;
   border-radius: 75px;
   border: 5px solid #fff;
-  background: url(../img/portaa.png) no-repeat; }
+  background: url(../img/me.png) no-repeat; }
 
 .smedia {
   position: absolute;
@@ -152,7 +167,7 @@ section {
 .smedia.email {
   background: url(http://3.bp.blogspot.com/-ZhFqBhp79cA/UWHsMBmPxsI/AAAAAAAABn4/O8k_pGf1oCU/s1600/bubble_email_share_button.png); }
 
-.smedia.instagram {
+.smedia.linkedin {
   background: url(http://1.bp.blogspot.com/-FSkby0cXU_8/UWHsMis8c2I/AAAAAAAABoQ/y8coyc5ystc/s1600/bubble_instagram_share_button.png); }
 
 .smedia.youtube {
